@@ -21,9 +21,11 @@ public class AbogadoController {
     @Autowired
     private AbogadoRepository abogadoRepository;
 
+    //Método para enlistar abogados
     @GetMapping("abogados")
     public List<Abogado> getAll() {return service.getAll();}
 
+    //Método para agregar un abogado en la BD
     @PostMapping("abogado")
     public void save(@RequestBody Abogado abogado){
         service.save(abogado);
