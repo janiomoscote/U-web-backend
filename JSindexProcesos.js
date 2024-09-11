@@ -21,45 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    // Función para agregar un producto a la tabla
-    function addProductToTable(product) {
-        const row = document.createElement('tr');
-        
-        row.innerHTML = `
-            <td class="table-dark">${product.id}</td>
-            <td class="table-dark">${product.id_proceso}</td>
-            <td class="table-dark">${product.nombre}</td>
-            <td class="table-dark">${product.id_abogado}</td>
-            <td class="table-dark">${product.estado_actual}</td>
-            <td class="table-dark">${product.id-radicado}</td>
-            <td class="table-dark">${product.fecha_cargue}</td>
-            <td class="table-dark">${product.fecha_asignacion}</td>
-            <td class="table-dark">${product.trazabilidad}</td>           
-        `;
 
-        productTableBody.appendChild(row);
-    }
-
-    // Llamada a la función para obtener los productos al cargar la página
-    fetchProducts();
-
-    // Función para agregar un producto a la tabla
-    function addProductToTable(product) {
-        const row = document.createElement('tr');
-        
-        row.innerHTML = `
-            <td class="table-dark">${product.id}</td>
-            <td class="table-dark">${product.nombre}</td>
-            <td class="table-dark">${product.estado}</td>
-            <td class="table-dark">${product.id_categoria}</td>
-            <td class="table-dark">${product.privilegio}</td>        
-        `;
-
-        productTableBody.appendChild(row);
-    }
-
-    // Llamada a la función para obtener los productos al cargar la página
-    fetchProducts();
 
     // Función para agregar un producto a la tabla
     function addProductToTable(product) {
