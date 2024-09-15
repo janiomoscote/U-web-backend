@@ -1,0 +1,13 @@
+dev\germantovar\springboot\entities\Abogado.class
+dev\germantovar\springboot\services\ProcesoService.class
+dev\germantovar\springboot\repository\ProcesoRepository.class
+dev\germantovar\springboot\ServletInitializer.class
+dev\germantovar\springboot\repository\AbogadoRepository.class
+dev\germantovar\springboot\config\CORSFilter.class
+dev\germantovar\springboot\controllers\AbogadoController.class
+dev\germantovar\springboot\entities\Proceso.class
+dev\germantovar\springboot\services\IProcesoService.class
+dev\germantovar\springboot\controllers\ProcesoController.class
+dev\germantovar\springboot\services\IAbogadoService.class
+dev\germantovar\springboot\services\AbogadoService.class
+dev\germantovar\springboot\SpringbootApplication.class
